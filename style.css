@@ -1,0 +1,459 @@
+body {
+    margin:0;
+    background-color: #DEDEDE;
+  }
+
+  /* ---------- Nav Menu---------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .menuButton {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+  }
+
+  .logo-image {
+      height: 150px !important;
+      width: auto;
+      margin-left: 50px;
+  }
+
+  #site-header {
+      background: white;
+  }
+  #site-header h2 {
+    margin: 0;
+}
+
+  /* ---------- index + About ---------- */
+
+  .content-container {
+    width: 80%;
+    margin-left: 10%;
+    background-color: thistle;
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+
+
+  .infoBox {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    right: 15%;
+    top: 290px;
+  }  
+
+
+  .pageTitle {
+    margin-left: 20%;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+  }
+
+  .pageTitleH3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .collumn {
+    width: 50%;
+    height: 80%;
+    /* border: black;
+    border-style: solid;
+    border-width: 1px; */
+    float: left;
+  }
+
+  .map {
+    margin-left: 20%;
+    margin-top: 100px;
+  }
+
+  .shortTextHeading {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .shortText {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+  }
+
+  .CTAButton {
+    float: right;
+    margin: 50px;
+    color: white;
+    background-color: #B43139;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+  }
+
+  .paragraphHeading {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .paragraphText {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+
+  .paragraphHeading2 {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .paragraphText2 {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+
+  .paragraphHeading3 {
+    margin-top: 500px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .paragraphText3 {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+  }
+
+ /* ---------- home ---------- */
+
+.line11 {
+  margin-left: 100px;
+  margin-top: 200px;
+  font-size: 50px;
+  float: left;
+  background-color: green; 
+  color: white;
+}
+.line22 {
+  margin-left: 260px;
+  font-size: 50px;
+  margin-top: 5px;
+  float: left;
+  background-color: green; 
+  color: white;
+}
+
+.homePageButtons {
+  background-color: thistle;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.homePageButtonText {
+  background-color: thistle;
+  width: 100%;
+  height: 150px;
+  margin-top: 100px;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.CTAButton2 {
+  /* margin: 50px 30px 20px; */
+  color: white;
+  background-color: #B43139;
+  font-size: 16px;
+  display: block;
+  padding: 15px;
+  width: 150px;
+  height: 20px;
+  text-decoration: none;
+  border: none;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+width: 100%;
+display: block;
+padding: 50px;
+font-size: 20px;
+}
+
+.columnText {
+width: 100%;
+display: block;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 50px;
+font-size: 20px;
+text-align: center;
+}
+
+.front-page-logo {
+  height: 100px;
+  width: auto;
+  margin: 10px;
+}
+
+
+
+  /* ---------- Footer---------- */
+  #nav {
+    color: white;
+    width: 100%;
+    height: 134px;
+    text-align: center;
+    }
+
+    .menu-footer-container {
+        background-color: #395C6B;
+    }
+
+    .menu-footer-container ul {
+      list-style-type: none;
+      display: inline-block;
+  }
+
+  .menu-footer-container li {
+    display: inline-block;
+}
+    
+    .menu-footer-container a{
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    }
+
+    .fa {
+        padding: 15px;
+        font-size: 30px;
+        width: 15px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+    }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .socialIcons {
+          text-align: center;
+      }
+
+      footer {
+        background-color: #395C6B;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        /* position: fixed;
+        left: 0;
+        bottom: 0; */
+      }
+
+
+        /* ---------- Members---------- */
+
+        .content-container-members {
+          width: 80%;
+          margin-left: 10%;
+          background-color: thistle;
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .postContainer {
+          width: 80%;
+          margin-left: 10%;
+          background-color: thistle;
+          display: flex;
+          flex-wrap: wrap;
+          padding: 50px;
+        }
+
+        
+
+        .posts {
+          border-radius: 15px;
+          background: beige;
+          width: 25%;
+          height: 200px;
+          margin-bottom: 15px;
+          margin-right: 1%;
+          padding: 15px;
+          border: 1px solid;
+          /* box-shadow: 5px 10px; */
+      }
+      #singlePost {
+          border-radius: 15px;
+          background: beige;
+          width: 80%;
+          margin-bottom: 15px;
+          margin-left: auto;
+          margin-right: auto;
+          padding: 15px;
+          border: 1px solid;
+          box-shadow: 5px 10px;
+      }
+
+
+        /* ---------- Members---------- */
+
+
+        #sidebar {
+          display: none;
+        }
+
+        /* ---------- Contact---------- */
+
+        .my-form {
+          background-color: lightgray;
+          padding-top: 60px;
+          padding-bottom: 60px;
+          margin-top: 50px;
+          color: black;
+          width: 50%;
+          margin: 80px auto;
+         }
+          
+         .my-input {
+          width: 74%;
+          height: 24px;
+          padding: 5px;
+          margin: 10px;
+          border: 1px white;
+          text-align: center;
+         }
+          
+         .my-textarea {
+          text-align: center;
+          margin: 10px auto;
+          padding: 10px;
+          display: block;
+          height: 76px;
+          width: 74%;
+          border: 1px white;
+          
+         }
+          
+         .my-button {
+          margin-right: 28%;
+          margin-top: 24px;
+          padding: 8px;
+          width: 87px;
+          background-color: #B43139;
+          color: white;
+          border: none;
+         }
+          
+         .second-button {
+          margin-top: 24px;
+          padding: 8px;
+          width: 87px;
+          background-color: #B43139;
+          color: white;
+          border: none;
+         }
+
+         .home-container {
+          margin: 10%;
+          text-align: center;
+          font-size: 22px;
+          /* margin-bottom: 480px; */
+          
+          }
+
+          /* list// */
+ 
+ .my-list {
+  padding: 10px;
+  margin-top: 50px;
+  display: inline-block;
+  /* border: 1px solid red; */
+  width: 100%;
+  }
+  
+  .my-list li {
+  list-style: none;
+  }
+  
+  .footer-info {
+  /* display: inline-block; */
+  float: left;
+  width: 33%;
+  height: 293px;
+  /* border: 1px solid blue; */
+  
+  
+  }
